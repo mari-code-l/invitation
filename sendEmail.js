@@ -36,4 +36,4 @@ setInterval(function() {
         first.css('margin-top', '0px');
         current = 1;
     } else current++;
-}, 3000);
+}, 2000);

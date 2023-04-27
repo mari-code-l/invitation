@@ -88,7 +88,7 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
               };	
               var infowindow = new google.maps.InfoWindow({
-              content: '<strong>I am here!</strong> <br> Munich, Germany'
+              content: '<strong>Beer is here!</strong> <br /> Dultplatz, Regensburg'
               });
         var map = new google.maps.Map(document.getElementById( "map" ), options);	
         var marker = new google.maps.Marker({
