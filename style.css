@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
 
 body {
     margin: 0;
@@ -9,7 +9,8 @@ body {
 }
 
 .navbar-brand{
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Rubik Pixels', cursive;
+  font-weight: 100;
   font-size: 20px;
   margin-top: 0px;
   opacity: 0.7;
@@ -368,12 +369,13 @@ a{
 }
 
 .roles {
-    font-size: 30px;
+    font-size: 20px;
     height: 50px;
     overflow: hidden;
     width: 100%;
     margin: 5% 0;
-    font-family: 'Caveat', cursive;
+    font-family: 'Rubik Pixels', cursive;
+    font-weight: 100;
 }
 
 .roles div {
@@ -427,3 +429,4 @@ section {
   width: 100px; 
   margin: auto;
 }
+
