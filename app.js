@@ -112,4 +112,11 @@
   })(jQuery);
 
 
-  
+
+
+  $(document).on('click', '#submit', function(e) {
+    swal(
+      'Jawohl! Bis dann!',
+    )
+  });
+
