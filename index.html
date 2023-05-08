@@ -14,24 +14,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     
-    <title>My Portfolio</title>
+    <title>invitation</title>
 </head>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Beer O'clock!</a>
+
+        <p class="info">
+          <a class="navbar-brand text-end text-light" href="index.html">O'zapft is!</a> <br> Gerne möchte ich euch zu meinem Geburtstag einladen. <br> Es findet am 28. Mai ab 19 Uhr im Hahnzelt statt. <br> Unter dem folgenden link findet Ihr informationen </p>
       </div>
+      
     </nav>
-</header>
+
 
 <body>
-  <div id="map-wrapper">
-    <div id="map">
-      <ul id="places">
-        <li data-coords="49.0262011, 12.0888468" data-zoom="11"></li>
-      </ul>
-    </div>
-  </div>
+
     <div class="hero-image">
     </div>
 
@@ -44,21 +39,15 @@
             CONTACT PAGE LEFT 
           
             -----------------> 
-          
+            
           <div class="form-horizontal">
-            <h1 class="section-header">Ich bin dabei..</h1>
+            <h5 class="section-header">Ich bin dabei..</h5>
 
           <form onsubmit="return sendMail(this);" method="POST">
              
             <div class="form-group">
               <div class="col-sm-12">
                 <input type="text" class="form-control" id="fullname" placeholder="Name" name="name" minlength="5" maxlength="15" class="validate" required>
-              </div>
-            </div>
-      
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input type="email" class="form-control" id="emailaddress" placeholder="E-mail" name="email">
               </div>
             </div>
       
@@ -81,16 +70,16 @@
       <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item text-secondary"><i class="fa fa-map-marker fa-1x">
+          <li class="list-item text-dark"><i class="fa fa-map-marker fa-1x">
             <span class="contact-text place">
-              <a class="text-dark fs-6" target="_blank" href="https://www.google.com/maps/place/Neuer+Dultplatz,+93059+Regensburg/@49.0264655,12.0753894,15z/data=!4m10!1m2!2m1!1sneuer+dultplatz+regensburg!3m6!1s0x479fc1b2626358c5:0x477838d55b1cf534!8m2!3d49.0264654!4d12.0883382!15sChpuZXVlciBkdWx0cGxhdHogcmVnZW5zYnVyZ5IBC3Rvd25fc3F1YXJl4AEA!16s%2Fg%2F11c43tldg8">
+              <a class="text-dark" target="_blank" href="https://www.google.com/maps/place/Neuer+Dultplatz,+93059+Regensburg/@49.0264655,12.0753894,15z/data=!4m10!1m2!2m1!1sneuer+dultplatz+regensburg!3m6!1s0x479fc1b2626358c5:0x477838d55b1cf534!8m2!3d49.0264654!4d12.0883382!15sChpuZXVlciBkdWx0cGxhdHogcmVnZW5zYnVyZ5IBC3Rvd25fc3F1YXJl4AEA!16s%2Fg%2F11c43tldg8">
               Dultplatz, Regensburg
             </span></a></i>
           </li>
           
-          <li class="list-item text-secondary"><i class="fa fa-phone fa-1x"><span class="contact-text phone"><a href="tel:+4915155279982" class="text-dark fs-6" title="Give me a call">+4915155279982</a></span></i></li>
+          <li class="list-item text-dark"><i class="fa fa-phone fa-1x"><span class="contact-text phone"><a href="tel:+4915155279982" class="text-dark" title="Give me a call">+4915155279982</a></span></i></li>
           
-          <li class="list-item text-secondary"><i class="fa fa-envelope fa-1x"><span class="contact-text gmail"><a class="text-dark fs-6" href="mailto:maridel.arcagua@gmail.com" title="Send me an email">madelvonlove@icloud.com</a></span></i></li>
+          <li class="list-item text-dark"><i class="fa fa-envelope fa-1x"><span class="contact-text gmail"><a class="text-dark" href="mailto:maridel.arcagua@gmail.com" title="Send me an email">madelvonlove@icloud.com</a></span></i></li>
           
         </ul>
       
@@ -110,15 +99,13 @@
                   </li>
                 </ul>
               <hr>
-      
-              <div class="copyright">&copy; 2023 MaridelA</div>
-      
+              <div class="copyright text-dark">&copy; 2023 MaridelA</div>
+              </div>
             </div>
-          
         </div>
-        
+      </header> 
     </section>  
-
+    
 <script src="app.js"></script>
 <script src="sendEmail.js"></script>
 <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
